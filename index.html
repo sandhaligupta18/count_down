@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Down</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .main{
+        background-image: linear-gradient(red,yellow);
+        height: 656px;
+        width: 100%;
+    }
+    h1{
+    text-align: center;
+  /* margin-top: 23px; */
+     font-size: 60px;
+    }
+    p{
+      text-align: center;
+      font-size: 48px;      
+      margin-top: 27px;
+    }
+    .main3{
+        height: 164px;
+        width: 752px;
+        align-items: center;
+        /* background-color: white; */
+        margin-left: 328px;
+        margin-top: 107px;
+        display: flex;
+    }
+    input{
+        border: 3px solid black;
+        border-style: groove;
+        border-radius: 4px;
+        font-size: 33px;
+      
+    }
+    .input1 input{
+        height: 39px;
+    width: 90px;
+    margin-left: 71px;
+    margin-top: 15px;
+    text-align: center;
+    }
+    .input1{
+        display: flex;
+        flex-direction:column;
+    }
+    .input2 input{
+        height: 39px;
+    width: 90px;
+    margin-left: 71px;
+    margin-top: 15px;
+    text-align: center;
+   
+    
+    }
+    .input3 input{
+        height: 39px;
+    width: 90px;
+    margin-left: 71px;
+    margin-top: 15px;
+    text-align: center;
+    }
+    .input4 input{
+        height: 39px;
+    width: 90px;
+    margin-left: 71px;
+    margin-top: 15px;
+    text-align: center;
+    }
+    label{
+        margin-left: 86px;
+        font-size: 23px;
+    }
+</style>
+</head>
+<body>
+       <div class="main">
+       <h1>CountDown</h1>
+        <p id="main2">16 July 2023 10:00 PM</p>
+        <div class="main3">
+            <div class="input1">
+            <input type="text" readonly value="0">
+            <label>Days</label></div>
+            <div class="input1">
+            <input type="text" readonly value="0">
+            <label>Hours</label></div>
+         <div class="input1">
+            <input type="text"readonly value="0">
+            <label>Minutes</label></div>
+            <div class="input1">
+            <input type="text" readonly value="0">
+            <label>Second</label></div>
+        </div>
+       </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
